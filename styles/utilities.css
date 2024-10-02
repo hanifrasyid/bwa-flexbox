@@ -1,0 +1,106 @@
+:root {
+    --black: #070F18;
+    --white: #F5F6FB;
+    --gray: #575455;
+    --blue: #207DFF;
+    --orange: #F06157;
+}
+
+.font-orange {
+    color: var(--orange);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: normal;
+}
+
+.font-gray {
+    color: var(--gray);
+}
+
+.nav-menu {
+    display: none;
+    list-style-type: none;
+    gap: 59px;
+}
+
+.active {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.hero-wrapper {
+    margin-bottom: 50px;
+}
+
+.hero-wrapper p {
+    margin: 30px 0;
+}
+
+.hero-wrapper img {
+    display: none;
+}
+
+.company-wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-logo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.work-wrapper {
+    text-align: center;
+}
+
+.work-wrapper h2 {
+    margin: -5px 0;
+}
+
+.card-wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card h5 {
+    margin-bottom: -3px;
+}
+
+.footer-title-wrapper {
+    text-align: center;
+}
+
+.footer-title-wrapper h2 {
+    margin: -5px 0;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* CUSTOM SENDIRI */
+.payna-logo {
+    width: 151px;
+}
+
+.card-logo {
+    width: 60px;
+}
+
+.company-wrapper img {
+    height: 30px;
+    flex-shrink: 0;
+}

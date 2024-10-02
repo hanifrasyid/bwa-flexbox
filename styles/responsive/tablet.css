@@ -1,0 +1,41 @@
+/* Tablet devices */
+@media only screen and (min-width: 600px) and (max-width: 1440px) {
+    header {
+        margin-bottom: 100px;
+    }
+
+    .hero-wrapper {
+        text-align: center;
+    }
+
+    .company-logo-wrapper {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .footer-wrapper img {
+        width: 522px;
+    }
+
+    .footer-image-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input-group {
+        margin: 40px 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .input-group input {
+        width: 35%;
+    }
+
+    .input-group button {
+        margin-left: -50px;
+    }
+}
